@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:checkable="true"
+            android:checked="true"
+            android:id="@+id/nav_nunmati"
+            android:title="Tes 1" />
+        <item
+            android:id="@+id/nav_mimmati"
+            android:title="Tes 2" />
+    </group>
+
+    <group
+        android:id="@+id/bottomGroup"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_about"
+            android:checkable="false"
+            android:icon="@drawable/ic_info"
+            android:title="@string/about" />
+
+    </group>
+
+</menu>
